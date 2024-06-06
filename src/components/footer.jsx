@@ -42,6 +42,7 @@ const Footer = () => {
             <React.Fragment>
               &nbsp;|&nbsp;
               <CustomLink to="https://beian.miit.gov.cn/" text={siteIcp} />
+            ) : null}
             </React.Fragment>
               &nbsp;&nbsp;&nbsp;
             <img src="/images/logo01.png" style="width: 16px;">
@@ -49,7 +50,6 @@ const Footer = () => {
               &nbsp;
               <CustomLink to="https://beian.mps.gov.cn/#/query/webSearch?code=51150302000159" text={siteWA} />
             </React.Fragment>
-          ) : null}
         </p>
       </div>
     </footer>
