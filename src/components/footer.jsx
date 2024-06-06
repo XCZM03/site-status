@@ -9,6 +9,7 @@ const Footer = () => {
   const homeUrl = import.meta.env.VITE_HOME_URL;
   const emailUrl = import.meta.env.VITE_EMAIL_URL;
   const siteIcp = import.meta.env.VITE_SITE_ICP;
+  const siteWA = import.meta.env.VITE_SITE_WA;
 
   return (
     <footer id="footer">
@@ -41,6 +42,12 @@ const Footer = () => {
             <React.Fragment>
               &nbsp;|&nbsp;
               <CustomLink to="https://beian.miit.gov.cn/" text={siteIcp} />
+            </React.Fragment>
+              &nbsp;&nbsp;&nbsp;
+            <img src="/images/logo01.png" style="width: 16px;">
+              </React.Fragment>
+              &nbsp;
+              <CustomLink to="https://beian.mps.gov.cn/#/query/webSearch?code=51150302000159" text={siteWA} />
             </React.Fragment>
           ) : null}
         </p>
