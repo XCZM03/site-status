@@ -44,6 +44,8 @@ const Footer = () => {
               <CustomLink to="https://beian.miit.gov.cn/" text={siteIcp} />
             </React.Fragment>
           ) : null}
+        </p>
+        <p>
               &nbsp;&nbsp;&nbsp;
             <img src="/images/logo01.png" style="width: 16px;">
               </React.Fragment>
